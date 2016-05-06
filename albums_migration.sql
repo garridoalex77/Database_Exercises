@@ -7,17 +7,7 @@ CREATE TABLE albums (
     name VARCHAR(50) DEFAULT 'NONE',
     release_date YEAR(4),
     sales FLOAT,
-    genre VARCHAR(10) DEFAULT 'NONE',
+    genre VARCHAR(20) DEFAULT 'NONE',
     PRIMARY KEY (id)
 
 );
-
-
-
-
-
-
-
-
-
-
