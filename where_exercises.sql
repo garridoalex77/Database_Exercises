@@ -1,4 +1,4 @@
 USE codeup_test_db;
-SELECT emp_no, first_name, last_name
+SELECT emp_no, first_name, last_name, hire_date
 FROM employees
-WHERE last_name LIKE 'E%';
+WHERE hire_date LIKE '199%';
