@@ -1,6 +1,6 @@
 USE codeup_test_db;
 
-SELECT DISTINCT * FROM titles GROUP BY title ASC;
+SELECT DISTINCT title FROM titles;
 
 SELECT DISTINCT emp_no, first_name, last_name
 FROM employees
