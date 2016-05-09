@@ -12,7 +12,7 @@ WHERE gender = 'M'
         first_name = 'Irena'
     OR first_name =  'Vidya'
     OR first_name = 'Maya')
-ORDER BY first_name, last_name;
+ORDER BY last_name, first_name;
 
 -- SELECT emp_no, first_name, last_name
 -- FROM employees
