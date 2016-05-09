@@ -32,10 +32,11 @@ ORDER BY emp_no DESC;
 -- FROM employees
 -- WHERE birth_date LIKE '%%%%-12-25';
 
-SELECT emp_no, first_name, last_name, hire_date
+SELECT emp_no, first_name, last_name, hire_date, birth_date
 FROM employees
 WHERE hire_date LIKE '199%'
-    AND birth_date LIKE '%%%%-12-25';
+    AND birth_date LIKE '%%%%-12-25'
+ORDER BY birth_date, hire_date DESC;
 
 -- SELECT emp_no, first_name, last_name 
 -- FROM employees
